@@ -94,5 +94,6 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.6.1/firebase
     const navLinks = document.querySelector('.nav-links');
     navLinks.classList.toggle('active'); // Toggle the visibility of the nav items
   }
+  window.toggleMenu = toggleMenu;
   
   
