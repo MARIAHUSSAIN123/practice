@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmetics Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">💄 GlamZone</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#Addtocart">Cart</a></li>
+        <li><a href="#feedbackform">Login</a></li>
+      </ul>
+      <!-- Hamburger Icon for Small Screens -->
+      <div class="hamburger" onclick="toggleMenu()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-overlay">
+      <h1>Discover Your Perfect Shade</h1>
+      <p>Find the best cosmetics for all skin tones</p>
+      <a href="#products" class="shop-now" id="shop">Shop Now</a>
+    </div>
+  </section>
+  
+<!-- Products Section -->
+<section id="products">
+    <h2>Our Products</h2>
+  
+    <!-- Foundation Category -->
+    <div class="product-category">
+      <h3>Foundation (All Skin Types)</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="./Make Up For Ever HD Skin Hydra Glow Foundation.jpeg" alt="Hydrating Foundation">
+          <h4>Hydrating Foundation</h4>
+          <p>PKR 1,499</p>
+         
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+         
+        <div class="product-grid">
+          <div class="product-card">
+          <img src="./Maybelline New York Fit Me Matte + Poreless Liquid Oil-Free Foundation Makeup,.jpeg" alt="Matte Foundation">
+          <h4>Matte Foundation</h4>
+          <p>PKR 1,599</p>
+         
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        </div>
+        <div class="product-grid">
+          <div class="product-card">
+          <img src="/11 of Our Absolute Favorite 2019 Drugstore Makeup Launches.jpeg" alt="Dewy Foundation">
+          <h4>Dewy Foundation</h4>
+          <p>PKR 1,699</p>
+          
+          <button class="add-to-cart"id="Addtocart">Add to Cart</button>
+        </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Face Powder Category -->
+    <div class="product-category">
+      <h3>Face Powder</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="./best setting powder_.jpeg" alt="Translucent Powder">
+          <h4>Translucent Powder</h4>
+          <p>PKR 999</p>
+         <button class="add-to-cart"id="Addtocart">Add to Cart</button>
+        </div>
+     
+        
+        <div class="product-grid">
+          <div class="product-card">
+          <img src="./Maybelline Fit Me Matte + Poreless Pressed Face Powder Makeup & Setting Powder, Translucent, 1 Count.jpeg" alt="Compact Powder">
+          <h4>Compact Powder</h4>
+          <p>PKR 1,199</p>
+          
+          <button class="add-to-cart" id="Addtocart">Add to Cart</button>
+        </div>
+        </div>
+      
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="./FACES CANADA Weightless Stay Matte Finish Compact Powder.jpeg" alt="pan-cake">
+            <h4>pan-cake</h4>
+            <p>PKR 1,579</p>
+           
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          </div>
+      </div>
+    </div>
+  
+    <!-- Lipstick Category -->
+    <div class="product-category">
+      <h3>Lipstick</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="./SWATCHES_ L'Oreal Colour Riche Matte Lipsticks Review _ Slashed Beauty.jpeg" alt="Matte Lipstick">
+          <h4>Matte Lipstick</h4>
+          <p>PKR 899</p>
+        
+          <button class="add-to-cart">Add to Cart</button>
+       
+        </div>
+        <div class="product-card">
+          <div class="product-grid">
+          <img src="./HONEY MELTING LIP ,SOFT LIP STICK, Hydrating Jelly Gloss, Moisturizing Balms, Sheer Tint, Shine & Glowy Finish, Korean Make Up.jpeg" alt="Creamy Lipstick">
+          <h4>Creamy Lipstick</h4>
+          <p>PKR 999</p>
+          
+          <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-grid">
+            <img src="./Snow Ball Mini Lipstick Kit ⎜MAC Classics.jpeg" alt=" mini Lipstick">
+            <h4>Mini Lipstick</h4>
+            <p>PKR 1599</p>
+           
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          </div>
+      </div>
+    </div>
+  
+    <!-- Lip Gloss Category -->
+    <div class="product-category">
+     
+      <h3>Lip Gloss</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="./download (6).jpeg" alt="Shiny Gloss">
+          <h4>Shiny Gloss</h4>
+          <p>PKR 799</p>
+          
+          <button class="add-to-cart">Add to Cart</button>
+       
+        </div>
+        <div class="product-card">
+          <div class="product-grid">
+          <img src="./FANTASYDAY LONG Lasting Lipstick Waterproof Plumping.jpeg" alt="Nude Gloss">
+          <h4>Nude Gloss</h4>
+          <p>PKR 749</p>
+         
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        </div>
+        <div class="product-card">
+          <div class="product-grid">
+          
+            <img src="./Clarity Duo.jpeg" alt="Transparent Gloss">
+            <h4>Transparent Gloss</h4>
+            <p>PKR 1049</p>
+            
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          </div>
+  
+      </div>
+    </div>
+  
+    <!-- Highlighter Category -->
+    <div class="product-category">
+      <h3>Highlighter</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="./Rare Beauty Highlighter.jpeg" alt="Gold Highlighter">
+          <h4>Gold Highlighter</h4>
+          <p>PKR 1,099</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="./make-up rainbow highlight highlighter 🌈 I HEART Makeup REVOLUTION UNICORN BLUSH highlighter ILLUMINANTE RAINBOW LIM Ed_ _ Health & Beauty, Make-Up, Face.jpeg" alt="Rose Highlighter">
+          <h4>Rose Highlighter</h4>
+          <p>PKR 1,199</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="./Fenty Highlighter, Dupe.jpeg" alt="Grey Highlighter">
+            <h4>Grey Highlighter</h4>
+            <p>PKR 1,599</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+      </div>
+    </div>
+  
+    <!-- Eyeliner Category -->
+    <div class="product-category">
+      <h3>Eyeliner</h3>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="/wet n wild MegaLiner Liquid Eyeliner - Black.jpeg" alt="Liquid Eyeliner">
+          <h4>Liquid Eyeliner</h4>
+          <p>PKR 499</p>
+          <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product-card">
+            <img src="./Review_ Maybelline Eyestudio Lasting Drama Gel Eyeliner - Black.jpeg" alt="Gel Eyeliner">
+            <h4>Gel Eyeliner</h4>
+            <p>PKR 599</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="./2in1 Winged Stamp Eyeliner Waterproof Makeup Cosmetic Eye Liner Pencil Liquid US • $7_89.jpeg" alt="cake Eyeliner">
+            <h4>cake Eyeliner</h4>
+            <p>PKR 1299</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-category">
+        <h3>Mascara</h3>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="./Amazon Shoppers Love This $4_99 Mascara--It Makes Your Lashes _So_ Long.jpeg" alt="Volumizing Mascara">
+            <h4>Volumizing Mascara</h4>
+            <p>PKR 749</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="./download (7).jpeg" alt="Lengthening Mascara">
+            <h4>Lengthening Mascara</h4>
+            <p>PKR 799</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="./Kisshine Colorful Mascara 5 Color Rainbow Fiber Mascara Charming Longlasting Thick & Long Eyelash Waterproof and Smudge-Proof Eyes Makeup Gift For Women and Girls Pack of 1(B-White).jpeg" alt="colored Mascara">
+            <h4>Colored Mascara</h4>
+            <p>PKR 1099</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-category">
+        <h3>EYESHADOWS</h3>
+        <div class="product-grid">
+          <div class="product-card">
+            <img src="./Professional  Eye Makeup Eyeshadow Palette Gold Smoky Cosmetics Makeup Palette Diamond Bright Glitter Eye Shadow(6).jpeg" alt="Glittery eyeshadow">
+            <h4>glittery Eyeshadow</h4>
+            <p>PKR 1500</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="./35 Colors Pro Eyeshadow Palette Makup, Pigmented Matte ow Make up Palettes Nude Eyeshadow.jpeg" alt="Nude Eyeshadow">
+            <h4>matte Eyeshadow</h4>
+            <p>PKR 2500</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+          <div class="product-card">
+            <img src="./Morphe Makeup _ Morphe 9v Vintage Rose Artistry Eyeshadow Palette _ Color_ Pink _ Size_ Os.jpeg" alt="Dusty eyeshadow">
+            <h4>Dusty eyeshadow</h4>
+            <p>PKR 2000</p>
+            <button class="add-to-cart">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+   <!-- Popup Modal -->
+<div id="popup" class="popup hidden">
+  <div class="popup-content">
+    <h3 id="popup-name"></h3>
+    <p id="popup-price"></p>
+    <div class="quantity-control">
+      <button id="decrease">-</button>
+      <span id="quantity">1</span>
+      <button id="increase">+</button>
+    </div>
+    <p>Total: <span id="total-price"></span></p>
+    <button id="confirm">✅ Add to Cart</button>
+  </div>
+</div>
+
+    
+
+  
+    <div class="container" id="feedbackform">
+      <h1 style="color:  #d85e8f;;">Feedback Form </h1>
+      <form id="feedbackForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <input type="number" id="number" placeholder="number" required>
+      
+      <select id="rating" required>
+      <option value="" disabled selected>Rate your experience</option>
+      <option value="1">1 - Poor 👎🏻</option>
+      <option value="2">2 - Fair 🙆🏻‍♂️</option>
+      <option value="3">3 - Good 🥈</option>
+      <option value="4">4 - Very Good 👌🏻</option>
+      <option value="5">5 - Excellent 🏆</option>
+      </select>
+
+      
+      <textarea id="message" placeholder="Your Feedback" required></textarea>
+      <button type="submit">Submit Feedback</button>
+      </form>
+      </div>
+     <!-- Footer Section -->
+     <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>💄 GlamZone</h2>
+          <p>Your go-to beauty destination</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a href="https://www.facebook.com/"class="social-icon">Facebook</a></li>
+            <li><a href="https://www.Instagram.com/" class="social-icon">Instagram</a></li>
+            <li><a href="https://www.Twitter.com/" class="social-icon">Twitter</a></li>
+            <li><a href="https://www.YouTube.com/" class="social-icon">YouTube</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 GlamZone | All rights reserved</p>
+      </div>
+    </footer>
+    
+
+
+
+
+      
+<script type="module" src="script.js"></script>
+        </body>
+        </html>
+ 
+       
+
+
